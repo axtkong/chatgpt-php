@@ -10,6 +10,6 @@ EXPOSE 80
 
 #如果需要定义版本号取消注释，并在构建过程中定义
 #ARG VERSION
-#LABEL version=$VERSION
+LABEL version=gpt-4
 # 命令行中使用的版本号
-#ENV APP_VERSION=$VERSION
+ENV APP_VERSION=gpt-4
